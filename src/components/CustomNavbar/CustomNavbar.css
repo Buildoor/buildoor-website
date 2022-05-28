@@ -1,0 +1,22 @@
+.navbar-toggle {
+    color: black !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.cstm-nav-btn {
+    background-color: var(--cstm-blue-purple) !important;
+    border-radius: 999px !important;
+    box-shadow: #5E5DF0 0 5px 10px -5px !important;
+    box-sizing: border-box !important;
+    font-size: 1rem !important;
+    line-height: 1.5rem !important;
+    opacity: 1 !important;
+    outline: 0 solid transparent !important;
+    padding: 0.3rem 1rem !important;
+    border: 0 !important;
+}
+
+.cstm-nav-btn:hover {
+    background-color: var(--cstm-light-purple);
+}

@@ -1,0 +1,31 @@
+.subtitle {
+    font-size: 6em;
+    font-weight: 100;
+}
+
+.subtitle b {
+    font-weight: bold;
+}
+
+.details {
+    font-size: 1.7em;
+    color: var(--cstm-gray);
+}
+
+.cstm-btn{
+    margin-top: 1em;
+  background: #5E5DF0 !important;
+  border-radius: 999px !important;
+  box-shadow: #5E5DF0 0 10px 20px -10px !important;
+  box-sizing: border-box !important;
+  font-size: 1.5em !important;
+  line-height: 1.5em !important;
+  opacity: 1 !important;
+  outline: 0 solid transparent !important;
+  padding: 0.3em 1em !important;
+  border: 0 !important;
+}
+
+.cstm-img {}
+
+
