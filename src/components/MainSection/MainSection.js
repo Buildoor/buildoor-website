@@ -5,7 +5,7 @@ import "./MainSection.css";
 
 export default function MainSection() {
   return (
-    <Container style={{ paddingTop: "3em", textAlign: "center" }}>
+    <Container style={{ paddingTop: "10em", textAlign: "center" }}>
       <Row>
         <Col>
           <p className="heading-subtitle">
@@ -18,7 +18,7 @@ export default function MainSection() {
             BUILDoor is a proof-of-knowledge powered ecosystem <br />
             that connects web3 talent to its desired destiny.
           </p>
-          <h2>Get validation from Top 1%</h2>
+          <h2 className="validation-title">Get validation from Top 1%</h2>
           <div className="divider-line"></div>
           <p>
             Theory and application are poles apart.
