@@ -3,12 +3,11 @@ import "./LandingPage.css";
 import React from "react";
 import CustomNavbar from "../components/CustomNavbar/CustomNavbar";
 import MainSection from "../components/MainSection/MainSection";
-import OptionsSection from "../components/OptionsSection/OptionsSection";
-import RightInformationSection from "../components/RightInformationSection/RightInformationSection";
-import LeftInformationSection from "../components/LeftInformationSection/LeftInformationSection";
-import ContactUsSection from "../components/LeftInformationSection/LeftInformationSection";
+import CuratedSection from "../components/CuratedSection/CuratedSection";
+import InformationSection from "../components/InformationSection/InformationSection";
+import GetConnectedSection from "../components/GetConnectedSection/GetConnectedSection";
 import Footer from "../components/Footer/Footer";
-import { Container } from "react-bootstrap";
+import NumbersSection from "../components/NumbersSection/NumbersSection";
 
 export default function LandingPage() {
   return (
@@ -16,12 +15,12 @@ export default function LandingPage() {
       <div className="main-background">
         <CustomNavbar></CustomNavbar>
         <MainSection></MainSection>
+        <CuratedSection></CuratedSection>
+        <NumbersSection></NumbersSection>
+        <InformationSection></InformationSection>
+        <GetConnectedSection></GetConnectedSection>
+        <Footer></Footer>
       </div>
-      <OptionsSection></OptionsSection>
-      <RightInformationSection></RightInformationSection>
-      <LeftInformationSection></LeftInformationSection>
-      <ContactUsSection></ContactUsSection>
-      <Footer></Footer>
     </div>
   );
 }

@@ -10,7 +10,9 @@ export default function CustomNavbar() {
   return (
     <Navbar collapseOnSelect expand="lg">
       <Container>
-        <Navbar.Brand href="#home">Buildoor</Navbar.Brand>
+        <Navbar.Brand href="#home">
+          <div style={{ color: "white" }}>BUILDoor</div>
+        </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           className="navbar-toggle"

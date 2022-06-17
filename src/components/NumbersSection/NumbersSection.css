@@ -1,0 +1,20 @@
+.numbers-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.numbers{
+    background: linear-gradient(90deg, rgb(0, 0, 0), rgb(0, 0, 0)) padding-box,
+              linear-gradient(90deg, rgb(0, 255, 247), rgb(230, 0, 255)) border-box;
+  border: 3px solid transparent;
+  border-radius: 1em;
+  margin: 1em;
+  padding: 0.5em 1em;
+}
+
+.title {
+    font-size: 2em;
+    font-weight: bold;
+}
