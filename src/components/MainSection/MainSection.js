@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Container, Button, Image } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 
 import "./MainSection.css";
 
@@ -20,14 +20,14 @@ export default function MainSection() {
           </p>
           <h2 className="validation-title">Get validation from Top 1%</h2>
           <div className="divider-line"></div>
-          <p>
+          <p className="details">
             Theory and application are poles apart.
             <br />
             Get the best of both worlds by attempting our 'paths'
             <br />
             designed by top industry experts.
           </p>
-          <button>Explore Paths Now</button>
+          <button className="cstm-btn">Explore Paths Now</button>
         </Col>
       </Row>
     </Container>

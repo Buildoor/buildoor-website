@@ -17,31 +17,39 @@
 
 .details {
     color: white;
-    font-size: 2em;
+    font-size: 1.8em;
     font-weight:lighter;
+    line-height: 1.2em;
 }
-
-.cstm-btn{
-    margin-top: 1em;
-  background: #5E5DF0 !important;
-  border-radius: 999px !important;
-  box-shadow: #5E5DF0 0 10px 20px -10px !important;
-  box-sizing: border-box !important;
-  font-size: 1.5em !important;
-  line-height: 1.5em !important;
-  opacity: 1 !important;
-  outline: 0 solid transparent !important;
-  padding: 0.3em 1em !important;
-  border: 0 !important;
-}
-
-
 
 /* GET VALIDATION FROM TOP 1% */
 
 .validation-title {
-    font-size: 4em;
+    font-size: 3.5em;
     font-weight: bold;
     padding-top: 3.5em;
 }
 
+.divider-line {
+    height: 3px;
+    background: -webkit-linear-gradient(to right, #00ddff, #e100ff); 
+    background: linear-gradient(to right, #00ddff, #e100ff);
+    margin: 2em 10em;
+}
+
+.cstm-btn{
+    margin: 1em 1em;
+  background: linear-gradient(to right, #5900ff,#e100ff);
+  border-radius: 12px;
+  box-sizing: border-box !important;
+  font-size: 1.8em;
+  font-weight: bold;
+  color: white;
+  outline: 0 solid transparent !important;
+  padding: 0.4em 1.8em !important;
+  border: 0 !important;
+}
+
+.cstm-btn:hover {
+  box-shadow: #5E5DF0 0 10px 20px -10px !important;
+}
