@@ -1,11 +1,14 @@
 import React from "react";
 import IMAGES from "./ImagesList";
+import "./Logo.css";
 
 export default function Logo(props) {
   return (
-    <div>
-      <img src={require("../../../images/1.png").default} alt={props.name} />
-      <p>{props.name}</p>
+    <div className="logoDiv">
+      <div className={"logoImage " + props.color}>
+        <img src={props.img} alt={props.name} />
+      </div>
+      <h2>{props.name}</h2>
     </div>
   );
 }

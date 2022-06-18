@@ -1,0 +1,23 @@
+.logoDiv {
+    padding: 2em 0;
+}
+
+.logoImage {
+    width: 12em;
+    height: 12em;
+    background-size: contain;
+    border-radius: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 40px;
+    margin: 20px
+}
+
+.logoImage.blue {
+    background-image: radial-gradient(circle, transparent 50%, rgba(0, 242, 255, 0.5) 100%);
+}
+
+.logoImage.red {
+    background-image: radial-gradient(circle, transparent 50%, rgba(187, 0, 255, 0.5) 100%);
+}
