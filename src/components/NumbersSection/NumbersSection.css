@@ -1,3 +1,22 @@
+.introSection {
+    display: flex;
+    justify-content: right;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 5em 1em 5em 30%;
+}
+
+.heading {
+    font-size: 4em;
+    font-weight: bold;
+    text-align: left;
+}
+
+.introSection .details {
+    font-size: 2em;
+    text-align: left;
+}
+
 .numbers-list{
     display: flex;
     flex-wrap: wrap;
@@ -6,12 +25,12 @@
 }
 
 .numbers{
-    background: linear-gradient(90deg, rgb(0, 0, 0), rgb(0, 0, 0)) padding-box,
+    background: linear-gradient(90deg, rgb(0, 12, 14), rgb(30, 0, 40)) padding-box,
               linear-gradient(90deg, rgb(0, 255, 247), rgb(230, 0, 255)) border-box;
-  border: 3px solid transparent;
+  border: 2px solid transparent;
   border-radius: 1em;
   margin: 1em;
-  padding: 0.5em 1em;
+  padding: 0.5em 5%;
 }
 
 .title {
