@@ -1,0 +1,30 @@
+.get-connected-section .heading {
+    text-align: center;
+    padding-top: 3em;
+}
+
+.get-connected-form {
+    display: inline-flex;
+    flex-direction: column;
+    align-content: center;
+    width: 40%;
+}
+
+.get-connected-form input {
+    border-radius: 16px;
+    height: 3.8em;
+    border: 0;
+    margin: 0.8em 0;
+    padding: 0 1em;
+    background-color: transparent;
+    background-image: linear-gradient(to right, rgba(0, 255, 255, 0.4), rgba(128, 0, 128, 0.4));
+    color: white;
+    font-size: 1.2em;
+}
+.get-connected-form input::placeholder {
+    color: rgba(245, 245, 245, 0.703);
+}
+
+.get-connected-form input:focus {
+    outline: none;
+}

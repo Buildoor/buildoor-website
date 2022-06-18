@@ -1,5 +1,4 @@
 import React from "react";
-import IMAGES from "./ImagesList";
 import "./Logo.css";
 
 export default function Logo(props) {

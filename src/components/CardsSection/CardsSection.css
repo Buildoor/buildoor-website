@@ -1,0 +1,12 @@
+
+.cardsSection .title {
+    font-size: 4em;
+}
+
+.cstm-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding: 2em;
+    margin: 2em;
+}

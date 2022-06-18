@@ -1,0 +1,28 @@
+.cstm-card {
+    width: 200px;
+    height: 300px;
+    margin: 16px;
+
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.05) , rgba(195, 116, 255, 0.32) 30%, rgba(255, 255, 255, 0.05) );
+    border: 1px solid white;
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cstm-card.false {
+    opacity: 50%;
+}
+
+.cstm-card.heading {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.cstm-card.details {
+    font-size: 1.2em;
+    font-weight: 400;
+    padding: 20px;
+}

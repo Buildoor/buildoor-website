@@ -1,15 +1,22 @@
 import React from "react";
-import "./InformationSection.css";
+import InfoElement from "./InfoElement/InfoElement";
 
-import RightInformationSection from "./RightInformationSection/RightInformationSection";
-import LeftInformationSection from "./LeftInformationSection/LeftInformationSection";
+import IMAGES from "../../ImagesList";
+import "./InformationSection.css";
 
 export default function InformationSection() {
   return (
-    <div>
-      <RightInformationSection></RightInformationSection>
-      <LeftInformationSection></LeftInformationSection>
-      <RightInformationSection></RightInformationSection>
+    <div className="informationSection">
+      {IMAGES.ELEMENTS.map((IMAGE) => {
+        return (
+          <InfoElement
+            img={IMAGE.img}
+            title={IMAGE.title}
+            details={IMAGE.details}
+            type={IMAGE.type}
+          />
+        );
+      })}
     </div>
   );
 }

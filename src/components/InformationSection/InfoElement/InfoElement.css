@@ -1,0 +1,39 @@
+.infoElement {
+    text-align: left;
+    align-items: center;
+    display: flex;
+    margin: 1em;
+    padding: 0 3em;
+    height: 16em;
+    border-radius: 10px;
+}
+
+.infoElement.right {
+    background-image: linear-gradient(to right, transparent, rgba(5, 244, 244, 0.1) 70%);
+}
+.infoElement.left {
+    background-image: linear-gradient(to left, transparent, rgba(5, 244, 244, 0.1) 70%);
+    flex-direction: row-reverse;
+}
+
+.infoElement .img img{
+    width: 20em;
+    height: 20em;
+    padding: 1em;
+}
+
+.infoElement .content {
+    width: 200em;
+    padding: 1em 3em;
+}
+
+.infoElement .heading {
+    font-size: 2.2em;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.infoElement .details {
+    font-size: 1.2em;
+    font-weight: 400;
+}
